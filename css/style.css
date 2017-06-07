@@ -1,0 +1,177 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body { /*OK*/
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+h1 {
+  color: #fff;
+  display: block;
+
+ /* font-size: 120px;
+  line-height: 100px;
+  margin-top: 0;
+  margin-bottom: 80px; */
+
+}
+p { /* OK */
+  display: block;
+}
+
+ul {/* OK */
+  display: block;
+}
+
+h2 { /* OK */
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.nav { /* OK */
+  height: 80px;
+  width: 100%;
+  background: black;
+}
+.nav ul li { /* ok */
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+  list-style: none;
+  padding: 0 10px;
+  color: #fff;
+  transition: background .5s;
+  text-align: center;
+
+}
+
+.container { /* Ok */
+	margin: 0 auto;
+	max-width: 940px;
+	padding: 0 10px;
+}
+.btn-1{ /* OK*/
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+}
+
+/* Header OK */
+.header {
+  height: 800px;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg");
+  background-size: cover;
+}
+
+.header .container { /*OK */
+	position: relative;
+	top: 200px;
+}
+
+.header h1 {
+	font-size: 120px;
+	line-height: 100px;
+	margin-top: 0;
+	margin-bottom: 80px;
+}
+
+@media (min-width:850px) {
+.header h1 {
+
+	}
+}
+
+.header p { /* OK */
+	font-weight: 500;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: 0;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+.btn:hover {
+	background: #117bff;
+	cursor: pointer;
+	transition: background .5s;
+}
+
+
+/* Nav */ /* OK */
+.nav ul {
+  height: 80px;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+.main .container { /* OK */
+	margin: 80px auto;
+}
+.main img {
+  float: left;
+  margin: 50px 80px 50px 0;
+}
+
+.jumbotron { /* OK */
+	height: 600px;
+	/*text-align: right;*/
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/jumbotron_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+}
+
+.jumbotron .container { /* OK */
+	position: relative;
+	top: 220px;
+}
+.jumbotron h2 { /* OK */
+  color: #fff;
+  text-align: right;
+  }
+.jumbotron p {
+  color: #fff;
+  text-align: right;
+}
+.jumbotron .btn-1 {
+  margin: 10px 0 0;
+  float: right;
+}
+
+/* Footer */
+.footer {
+	height: 80px;
+  background-color: black;
+
+}
+.footer p {
+  color: #fff;
+  font-size: 14px;
+  height: 80px;
+  line-height: 80px;
+  margin: 0 ;
+  float: left;
+}
+
+/* Media Queries */
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+.main .jumbotron {
+    padding: 0 30px;
+  }
